@@ -1,0 +1,117 @@
+/* src/styles/styles.css */
+
+/* Reset and Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
+  }
+  
+  .container {
+    max-width: 1200px; /* Maximum width of content */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header, footer {
+    background-color: #343a40; /* Dark background for header and footer */
+    color: #fff; /* White text color */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #343a40; /* Dark background for navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: #fff; /* White text color for navbar links */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Blue hover color for navbar links */
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px 0;
+  }
+  
+  .section {
+    background-color: #fff; /* White background for sections */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly increased shadow for depth */
+  }
+  
+  .section h2 {
+    color: #007bff; /* Blue heading color */
+    margin-bottom: 10px;
+    padding-bottom: 5px; /* Underline effect using padding */
+    border-bottom: 2px solid #007bff; /* Underline style */
+  }
+  
+  .section p {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin: 10px 0;
+    }
+  }
+  
